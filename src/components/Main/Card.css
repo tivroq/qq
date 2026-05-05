@@ -1,0 +1,67 @@
+.card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  position: relative;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.card img {
+  width: 140px;
+  margin: 0 auto;
+}
+
+.favorite {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 18px;
+  color: #ccc;
+}
+
+.card-info {
+  margin-top: 10px;
+}
+
+.card h3 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.price-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  color: #ff6b00;
+  font-weight: 600;
+}
+
+.old {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.discount {
+  color: red;
+  font-size: 12px;
+}
+
+.rating {
+  margin-top: 5px;
+  font-size: 13px;
+}

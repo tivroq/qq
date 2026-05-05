@@ -1,0 +1,48 @@
+export const products = [
+  {
+    id: 1,
+    title: "Apple BYZ S852I",
+    price: 2927,
+    oldPrice: 3527,
+    discount: "-20%",
+    rating: 4.7,
+    image: "/main1.png",
+  },
+  {
+    id: 2,
+    title: "Apple EarPods",
+    price: 2327,
+    rating: 4.5,
+    image: "/main2.png",
+  },
+  {
+    id: 3,
+    title: "Apple EarPods",
+    price: 2327,
+    rating: 4.5,
+    image: "/main3.png",
+  },
+  {
+    id: 4,
+    title: "Apple BYZ S852I",
+    price: 2927,
+    oldPrice: 3527,
+    discount: "-20%",
+    rating: 4.7,
+    image: "/main4.png",
+  },
+  {
+    id: 5,
+    title: "Apple EarPods",
+    price: 2327,
+    rating: 4.5,
+    image: "/main5.png",
+  },
+  {
+    id: 6,
+    title: "Apple EarPods",
+    price: 2327,
+    rating: 4.5,
+    image: "/main6.png",
+  },
+];
